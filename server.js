@@ -1,4 +1,5 @@
 //  OpenShift sample Node application
+require('appmetrics-dash').attach();
 var express = require('express'),
     app     = express(),
     morgan  = require('morgan');
